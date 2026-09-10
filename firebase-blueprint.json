@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Maguva user profile, demographic parameters, diagnostic labs, and activity logs",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "age": { "type": "number" },
+        "gender": { "type": "string" },
+        "heightCm": { "type": "number" },
+        "weightKg": { "type": "number" },
+        "role": { "type": "string" },
+        "avatarColor": { "type": "string" },
+        "gcpPlatform": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "lastLoginAt": { "type": "string" },
+        "lastProfileUpdate": { "type": "string" }
+      },
+      "required": ["uid"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User account and health telemetry record"
+    }
+  }
+}

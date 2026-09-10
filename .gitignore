@@ -1,0 +1,26 @@
+# Sensitive Configuration & API Keys
+firebase-applet-config.json
+.env
+.env.local
+.env.production
+*.pem
+
+# Dependencies & Build Files
+node_modules/
+build/
+dist/
+coverage/
+.cache/
+
+# System Files & AI Studio Metadata
+assets/.aistudio/
+.DS_Store
+*.log
+
+# Test Outputs
+playwright-report/
+test-results/
+
+# Exceptions
+!.env.example
+

@@ -1,0 +1,6 @@
+{
+  "name": "Maguva",
+  "description": "AI-Powered Anemia & Women’s Wellness Companion with dual-engine BMI, multi-deficiency risk scoring, AYUSH integration, and micronutrient meal planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
